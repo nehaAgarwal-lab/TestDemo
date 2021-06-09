@@ -11,7 +11,7 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection/>
+        <collection>u_demo3</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
@@ -33,6 +33,7 @@
 gs.log("test");
 	gs.log("test 1");
 	gs.log("test 2");
+	gs.addErrorMessage("this is chnaging everytime");
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>neha</sys_created_by>
@@ -40,15 +41,15 @@ gs.log("test");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1aab0a8f2f603010cf39de1a2799b672</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Demo 3 test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo3" source="3916060b2f603010cf39de1a2799b686">3916060b2f603010cf39de1a2799b686</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo3">3916060b2f603010cf39de1a2799b686</sys_scope>
         <sys_update_name>sys_script_1aab0a8f2f603010cf39de1a2799b672</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-09 14:01:39</sys_updated_on>
+        <sys_updated_by>neha</sys_updated_by>
+        <sys_updated_on>2021-06-09 14:03:56</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
